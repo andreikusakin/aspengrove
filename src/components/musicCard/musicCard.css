@@ -1,0 +1,45 @@
+.musiccard-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid #C29898;
+    
+    /* max-width: max-content;
+    max-height: max-content; */
+    
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.musiccard-title {
+    font-size: 16px;
+}
+
+.musiccard-type-year {
+    font-size: 15px;
+    color: #6A6A6A;
+}
+
+.musiccard-wrapper img {
+    /* max-width: 280px; */
+    margin: 10px;
+}
+
+.musiccard-btn {
+    display: inline-block;
+    background: #C29898;
+    padding: 6px;
+    width: 87px;
+    
+    color: black;
+    margin: 15px 5px;
+    
+   
+    
+}
+
+.musiccard-wrapper a:hover {
+    background-color: #e2c7c7;
+
+}
