@@ -6,11 +6,9 @@ import { musicData } from './musicData'
 
 
 const Music = () => {
-    return (<div className='music-wrapper'>
+    return (<div id="music" className='music-wrapper'>
             <h2>Music</h2>
-            
-            {/* <div className='music-cards-wrapper'>
-                
+                <div className='music-cards-wrapper'>
                 {musicData.map(element=>(
                 <MusicCard 
                 key={element.title}
@@ -21,30 +19,8 @@ const Music = () => {
                 buyLink={element.buyLink}
                 coverArt={element.img}
                 />))}
-                
-                
-                <div className='more-music'><p>More music coming soon</p></div>            
-            
-            </div> */}
-                <div className='container'>
-                
-                {musicData.map(element=>(
-                <MusicCard 
-                key={element.title}
-                title={element.title}
-                type={element.type}
-                year={element.year}
-                listenLink={element.listenLink}
-                buyLink={element.buyLink}
-                coverArt={element.img}
-                />))}
-                
-                
-                
-                <div className={`flex-item-dynamic`}><p>More music coming soon</p></div>            
-            
+                <div className='last-item-dynamic'><p>More music coming soon</p></div>            
             </div>
-            
         </div>
     )
 }

@@ -1,0 +1,9 @@
+.footer {
+    color: #818181;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

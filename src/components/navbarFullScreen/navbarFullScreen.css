@@ -1,0 +1,153 @@
+.fs-navbar_wrapper {
+    font-family: 'Abel', sans-serif;
+    
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    padding-top: 60px;
+    padding-right: 20px;
+    transition: all .5s ease-in-out;
+    
+}
+
+
+
+
+
+
+
+.menu-btn_wrapper {
+    display: flex;
+    justify-content: right;
+    
+    
+    
+}
+
+.menu-btn {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    z-index: 15;
+    /* mix-blend-mode: difference; */
+    
+    
+    
+}
+
+.menu-btn_hamburger {
+    width: 40px;
+    height: 1px;
+    background: #C29898;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_hamburger::before,
+.menu-btn_hamburger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: #C29898;
+    
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_hamburger::before {
+    transform: translateY(-10px);
+}
+
+.menu-btn_hamburger::after {
+    transform: translateY(10px);
+}
+
+.menu-btn.open .menu-btn_hamburger {
+    transform: translateX(-50px);
+    background: transparent;
+    
+}
+
+.menu-btn.open .menu-btn_hamburger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn_hamburger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.mw-visible {
+    /* mix-blend-mode: exclusion; */
+}
+.mw-visible-bg {
+    
+    background-color: rgba(19,19,19,.15);
+    width: 100%;
+    backdrop-filter: blur(6px);
+    justify-content: right;
+  }
+
+
+
+  .link-fs {
+    
+    display: flex;
+    align-items: right;
+    justify-content: end;
+    margin: 4vmin 1vw;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 40px;
+    
+}
+
+
+
+  .socials-fs {
+display: flex;
+align-items: center;
+justify-content: right;
+font-size: 30px;
+margin-top: 10vmin;
+    
+}
+
+.socials-fs a {
+    transition: all 0.3s ease 0s;
+    margin: 0 2vw;
+    vertical-align: middle;
+    
+   
+}
+
+@media ( max-width: 600px) {
+    .socials-fs a {
+        margin: 0 5vw;
+    }
+    
+}
+@media ( max-width: 400px) {
+    .menu-btn_hamburger {
+        width: 40px;
+    
+    }
+    .menu-btn_hamburger::before,
+.menu-btn_hamburger::after {
+   
+    width: 40px;
+    
+}
+.menu-btn {
+    
+    /* width: 60px;
+    height: 60px; */
+    
+}}

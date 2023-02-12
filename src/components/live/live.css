@@ -1,0 +1,31 @@
+.live-wrapper {
+    background: black;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #C29898;
+}
+
+.live-wrapper h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.tour-dates {
+    background-image: url("/public/images/livebg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 30px;
+    letter-spacing: 1.5vw;
+}
+
+@media (max-width: 670px) {
+    .tour-dates {
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+}

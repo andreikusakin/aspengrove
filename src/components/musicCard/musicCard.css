@@ -1,15 +1,14 @@
 .musiccard-wrapper {
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    margin: 5px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #C29898;
-    
-    /* max-width: max-content;
-    max-height: max-content; */
-    
+    margin: 5px;
     text-transform: uppercase;
-    text-align: center;
-    
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 300px;
 }
 
 .musiccard-title {
@@ -22,7 +21,7 @@
 }
 
 .musiccard-wrapper img {
-    /* max-width: 280px; */
+    max-width: 280px;
     margin: 10px;
 }
 
@@ -31,15 +30,14 @@
     background: #C29898;
     padding: 6px;
     width: 87px;
-    
+    text-align: center;
     color: black;
     margin: 15px 5px;
-    
-   
-    
 }
 
 .musiccard-wrapper a:hover {
-    background-color: #e2c7c7;
-
+    background-color: black;
+    outline: 1px solid #C29898;
+    outline-offset: -1px;
+    color: #C29898;
 }

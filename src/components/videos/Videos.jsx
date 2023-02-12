@@ -1,23 +1,22 @@
 import React, { useState } from 'react'
 import './videos.css'
 import { videosData } from './videosData'
-import VideosCard from '../VideosCard/VideosCard'
+import VideoItem from '../VideoItem/VideoItem'
 
 const Videos = () => {
     return(
-        <div className='videos-wrapper'>
+        <div id="videos" className='videos-wrapper'>
             <h2>Videos</h2>
-            <div className='video-card'>
+            <div className='video-item'>
                 
                 {videosData.map(element=>(
-                <VideosCard 
+                <VideoItem 
                 key={element.title}
                 title={element.title}
                 linkToVideo={element.link}
+                screenshot={element.img}
+                year={element.year}
                 />))}
-                
-                
-            
             </div>
         </div>
     )
