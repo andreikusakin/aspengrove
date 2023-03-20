@@ -1,31 +1,52 @@
 .musiccard-wrapper {
     display: flex; 
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--pink);
-    margin: 5px;
+    text-align: left;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid var(--pink); */
+    /* margin: 5px; */
     text-transform: uppercase;
-    flex-grow: 1;
-    box-sizing: border-box;
-    max-width: 300px;
+    /* flex-grow: 1; */
+    padding-bottom: 20px;
+    /* box-sizing: border-box; */
+    /* max-width: 300px; */
+    /* max-width: fit-content; */
+    text-decoration: none;
+    
 }
 
+
+
 .musiccard-title {
+    
     font-size: 16px;
 }
 
 .musiccard-type-year {
     font-size: 15px;
     color: #6A6A6A;
+    
 }
 
 .musiccard-wrapper img {
-    max-width: 280px;
-    margin: 10px;
+    /* max-width: 280px; */
+    width: 100%;
+    margin-bottom: 10px;
+    
+    /* padding: 10px; */
 }
 
-.musiccard-btn {
+
+.musiccard-wrapper img:hover {
+    opacity: 65%;
+    transition: all 0.3s ease 0s;
+    
+    
+}
+
+
+/* .musiccard-btn {
     display: inline-block;
     background: var(--pink);
     padding: 6px;
@@ -33,11 +54,5 @@
     text-align: center;
     color: black;
     margin: 15px 5px;
-}
+} */
 
-.musiccard-wrapper a:hover {
-    background-color: black;
-    outline: 1px solid var(--pink);
-    outline-offset: -1px;
-    color: var(--pink);
-}
