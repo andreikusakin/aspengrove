@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Abel', sans-serif;
-    color: #C29898;
+    color: var(--pink);
 }
 
 .music-wrapper h2 {   
@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #C29898;
+    border: 1px solid var(--pink);
     margin: 5px;
     text-transform: uppercase;
     flex-grow: 1;

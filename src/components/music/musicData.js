@@ -70,7 +70,14 @@ export const musicData = [
         listenLink: "https://fanlink.to/songsforyourpsychotherapist",
         buyLink: "https://fanlink.to/songsforyourpsychotherapist",
         img: "/images/sfyp.jpg"
-    }
-   
+    },
+    {
+        title: "Ne zabuvai mene 🇺🇦",
+        type: "Single",
+        year: 2023,
+        listenLink: "https://fanlink.to/nezabuvaimene",
+        buyLink: "https://fanlink.to/nezabuvaimene",
+        img: "/images/nezabuvaimene.jpg"
+    },
     
 ]

@@ -46,7 +46,7 @@
 .menu-btn_hamburger {
     width: 40px;
     height: 1px;
-    background: #C29898;
+    background: var(--pink);
     transition: all .5s ease-in-out;
 }
 
@@ -56,7 +56,7 @@
     position: absolute;
     width: 40px;
     height: 1px;
-    background: #C29898;
+    background: var(--pink);
     
     transition: all .5s ease-in-out;
 }

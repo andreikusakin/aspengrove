@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: flex-end;
     cursor: pointer;
-    color: #C29898;
+    color: var(--pink);
     transition: color 1s; 
 }
 

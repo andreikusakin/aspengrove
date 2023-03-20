@@ -1,5 +1,5 @@
 .videos-wrapper {
-    background: #C29898;
+    background: var(--pink);
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
 }

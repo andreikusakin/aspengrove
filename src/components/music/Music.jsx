@@ -9,7 +9,7 @@ const Music = () => {
     return (<div id="music" className='music-wrapper'>
             <h2>Music</h2>
                 <div className='music-cards-wrapper'>
-                {musicData.map(element=>(
+                {musicData.slice(0).reverse().map(element=>(
                 <MusicCard 
                 key={element.title}
                 title={element.title}

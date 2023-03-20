@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #C29898;
+    border: 1px solid var(--pink);
     margin: 5px;
     text-transform: uppercase;
     flex-grow: 1;
@@ -27,7 +27,7 @@
 
 .musiccard-btn {
     display: inline-block;
-    background: #C29898;
+    background: var(--pink);
     padding: 6px;
     width: 87px;
     text-align: center;
@@ -37,7 +37,7 @@
 
 .musiccard-wrapper a:hover {
     background-color: black;
-    outline: 1px solid #C29898;
+    outline: 1px solid var(--pink);
     outline-offset: -1px;
-    color: #C29898;
+    color: var(--pink);
 }

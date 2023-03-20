@@ -2,7 +2,7 @@
     background: black;
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-    color: #C29898;
+    color: var(--pink);
 }
 
 .live-wrapper h2 {

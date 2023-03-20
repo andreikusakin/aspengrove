@@ -1,6 +1,6 @@
 .about-wrapper {
     background: black;
-    color: #C29898;
+    color: var(--pink);
     font-family: 'Abel', sans-serif;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 
 .about-btn a {
     text-transform: uppercase;
-    background: #C29898;
+    background: var(--pink);
     color: black;
     text-align: center;
     padding: 25px 50px;
@@ -47,8 +47,8 @@
 
 .about-btn a:hover {
     background: black;
-    color: #C29898;
-    outline: 1px solid #C29898;
+    color: var(--pink);
+    outline: 1px solid var(--pink);
     outline-offset: -1px ;
 }
 
@@ -62,13 +62,13 @@
     padding: 10px;
     
     width: 100%;
-    border: 1px solid #C29898;
+    border: 1px solid var(--pink);
 }
 
 .about-text {
     grid-column: 2;
     grid-row: 1 / span 2;
-    color: #C29898;
+    color: var(--pink);
     padding: 0 0 0 30px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
