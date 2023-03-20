@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => 
     {
         return(
-            <div className='footer'>© 2022 Aspen Grove, design and build by Andrew Kusakin</div>
+            <div className='footer'>© {new Date().getFullYear()} Aspen Grove, design and build by Andrew Kusakin</div>
         )
     }
 
