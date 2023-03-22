@@ -3,14 +3,15 @@ import "./music.css";
 import MusicCard from "../musicCard/MusicCard";
 import { musicData } from "./musicData";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Music = () => {
   const [extendedView, setExtendedView] = useState(false);
   const musicDataReverse = musicData.slice(0).reverse();
 
   return (
-    <div id="music" className="music" >
-      <div className="music-wrapper">
+    <div id="music" className="music">
+      <motion.div transition={{ duration: 1 }} className="music-wrapper">
         <h2>Music</h2>
         <div className="music-cards-grid">
           {(extendedView ? musicDataReverse : musicDataReverse.slice(0, 6)).map(
@@ -25,7 +26,6 @@ const Music = () => {
               />
             )
           )}
-         
         </div>
         <button
           className="btn-show"
@@ -33,7 +33,7 @@ const Music = () => {
         >
           {extendedView ? `Show Less` : `Show More`}
         </button>
-      </div>
+      </motion.div>
     </div>
   );
 };

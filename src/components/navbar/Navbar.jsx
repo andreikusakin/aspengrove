@@ -19,7 +19,7 @@ const links = [
     position && position.scrollIntoView({ behavior: "smooth", block: "start" }) 
    }
 function renderLinks () {
-  return links.map(link => <a href={link.href}  onClick={() => scroll(link)}><p className="link">{link.linkBody}</p></a>)
+  return links.map(link => <a key={link.linkBody} href={link.href}  onClick={() => scroll(link)}><p className="link">{link.linkBody}</p></a>)
 }
 
   const [toggleMenu, setToggleMenu] = useState(false)

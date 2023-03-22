@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import "./musicCard.css";
+import { motion } from "framer-motion";
 
 const MusicCard = ({ title, type, year, link, coverArt }) => {
   return (
-    <div className="musiccard-wrapper">
+    
+    <motion.div 
+      initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        exit={{ opacity: 0 }}
+    
+    className="musiccard-wrapper">
       <a href={link}>
         <img src={coverArt} alt={title + " Cover Art"} />
       </a>
@@ -15,7 +23,8 @@ const MusicCard = ({ title, type, year, link, coverArt }) => {
           {type} {year}
         </span>
       </div>
-    </div>
+    </motion.div>
+    
   );
 };
 

@@ -7,11 +7,8 @@
 
 .music-wrapper {
   padding: 0 max(10px, 4vmin);
-
   background: black;
   padding-bottom: 50px;
-
-  
   color: var(--pink);
 }
 
@@ -24,7 +21,6 @@
 .music-cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-
   grid-gap: 20px;
 }
 
