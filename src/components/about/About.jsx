@@ -8,20 +8,20 @@ const About = () => {
       <h2>About</h2>
       <div className="about-flexbox">
         <div className="about-photo">
-          {/* <img src="images/agphoto.jpg" alt="Aspen Grove Photo" /> */}
+          
         </div>
 
         <div className="about-text">
           
           <p>
-            <b>Daniel Isaenko</b>, known as <b>Aspen Grove</b>, was born in
-            Crimea, Ukraine. Daniel's homeland is an infinite source of
-            inspiration and creative freedom. From an early age, Daniel was
+            <b>Danya Isaenko</b>, known as <b>Aspen Grove</b>, was born in
+            Crimea, Ukraine. Danya's homeland is an infinite source of
+            inspiration and creative freedom. From an early age, Danya was
             involved in the music world. He joined the local choir and learned
             to play the accordion in an orchestra.
           </p>
           <p>
-            After his father bought Daniel his first guitar at 16 years old, a
+            After his father bought Danya his first guitar at 16 years old, a
             future artist began writing his first songs. In 2018, he released
             his first album "Delirium", performed as an opening artist for Tom
             Odell and Lera Lynn. Best described as intimate and soothing, his
@@ -29,22 +29,22 @@ const About = () => {
             Kozelek.
           </p>
           <p>
-            Daniel appreciates the authenticity and uniqueness of sounds, so it
+            Danya appreciates the authenticity and uniqueness of sounds, so it
             is not uncommon for him to seek out grandma's dusty accordion,
             out-of-tune piano, toy flute, and xylophone for recordings. The
-            rustling leaves, acacia pods, the roar of thunder - Daniel hears the
+            rustling leaves, acacia pods, the roar of thunder - Danya hears the
             music in every sound and eloquently integrates them into his own
             compositions. The patterns woven from personal stories and simple
             yet powerful lyrics allow his songs to be universally understood.
           </p>
           <p>
-            Lately, Daniel has been focusing on discovering the beauty of the
+            Lately, Danya has been focusing on discovering the beauty of the
             Ukrainian language - his mother tongue. These songs are full of pure
             sincerity and maturity.
           </p>
 
           <p>
-            As of right now, Daniel is on the road, far away from his homeland,
+            As of right now, Danya is on the road, far away from his homeland,
             but he doesn't stop writing songs. He believes that he will soon be
             able to return to Ukraine, where his songs will be heard again, now
             sounding with renewed vigor.

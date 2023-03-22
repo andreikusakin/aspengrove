@@ -9,7 +9,7 @@
   color: var(--pink);
   transition: color 1s;
   
-  font-size: 20px;
+  
   transition: font-size 1s;
 }
 
@@ -39,7 +39,7 @@
   z-index: 5;
   margin-right: 10%;
   text-align: right;
-  
+  font-size: 1.3em;
   letter-spacing: 1vw;
 }
 
@@ -51,8 +51,7 @@
 
 .videoitem:hover {
   color: #e2c7c7;
-  font-size: 22px;
-
+  /* font-size: 22px; */
 }
 
 @media (max-width: 768px) {
