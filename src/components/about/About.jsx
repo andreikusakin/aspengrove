@@ -6,18 +6,19 @@ const About = () => {
   return (
     <div id="about" className="about-wrapper">
       <h2>About</h2>
-      <div className="about-grid">
+      <div className="about-flexbox">
         <div className="about-photo">
-          <img src="images/agphoto.jpg" alt="Aspen Grove Photo" />
+          {/* <img src="images/agphoto.jpg" alt="Aspen Grove Photo" /> */}
         </div>
 
         <div className="about-text">
+          
           <p>
-            Daniel Isaenko, known as Aspen Grove, was born in Crimea, Ukraine.
-            Daniel's homeland is an infinite source of inspiration and creative
-            freedom. From an early age, Daniel was involved in the music world.
-            He joined the local choir and learned to play the accordion in an
-            orchestra.
+            <b>Daniel Isaenko</b>, known as <b>Aspen Grove</b>, was born in
+            Crimea, Ukraine. Daniel's homeland is an infinite source of
+            inspiration and creative freedom. From an early age, Daniel was
+            involved in the music world. He joined the local choir and learned
+            to play the accordion in an orchestra.
           </p>
           <p>
             After his father bought Daniel his first guitar at 16 years old, a
@@ -48,40 +49,40 @@ const About = () => {
             able to return to Ukraine, where his songs will be heard again, now
             sounding with renewed vigor.
           </p>
-        </div>
-        <div className="btn-socials">
-          <div className="about-btn">
-            <a href="mailto:st.aspengrove@gmail.com">Contact email</a>
-          </div>
+          <div className="btn-socials">
+            <a href="mailto:st.aspengrove@gmail.com">
+              <button className="about-btn-email">Contact email</button>
+            </a>
 
-          <div className="socials-about">
-            <a href="https://www.instagram.com/aspengrove1/" target="_blank">
-              <BsInstagram />
-            </a>
-            <a
-              href="https://www.youtube.com/c/AspenGroveMusic/"
-              target="_blank"
-            >
-              <BsYoutube />
-            </a>
-            <a
-              href="https://open.spotify.com/artist/3PvkzQ5mrZ0EGltVg6SDPY?si=WiZqpBhVSxa1L-waCKxGUQ"
-              target="_blank"
-            >
-              <BsSpotify />
-            </a>
-            <a
-              href="https://music.apple.com/us/artist/aspen-grove/1423822709"
-              target="_blank"
-            >
-              <SiApplemusic />
-            </a>
-            <a
-              href="https://music.amazon.com/artists/B07G9QMF18/aspen-grove"
-              target="_blank"
-            >
-              <SiAmazon />
-            </a>
+            <div className="socials-about">
+              <a href="https://www.instagram.com/aspengrove1/" target="_blank">
+                <BsInstagram />
+              </a>
+              <a
+                href="https://www.youtube.com/c/AspenGroveMusic/"
+                target="_blank"
+              >
+                <BsYoutube />
+              </a>
+              <a
+                href="https://open.spotify.com/artist/3PvkzQ5mrZ0EGltVg6SDPY?si=WiZqpBhVSxa1L-waCKxGUQ"
+                target="_blank"
+              >
+                <BsSpotify />
+              </a>
+              <a
+                href="https://music.apple.com/us/artist/aspen-grove/1423822709"
+                target="_blank"
+              >
+                <SiApplemusic />
+              </a>
+              <a
+                href="https://music.amazon.com/artists/B07G9QMF18/aspen-grove"
+                target="_blank"
+              >
+                <SiAmazon />
+              </a>
+            </div>
           </div>
         </div>
       </div>

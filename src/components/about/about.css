@@ -1,11 +1,11 @@
 .about-wrapper {
+  display: grid;
+  justify-content: center;
+ 
   background: black;
   color: var(--pink);
   font-family: "Abel", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 max(10px, 4vmin);
+  margin-bottom: 3em;
 }
 
 .about-wrapper h2 {
@@ -15,14 +15,12 @@
   text-align: center;
 }
 
-.about-grid {
-  /* margin: 0 10px; */
-  display: grid;
-  grid-template-columns: fit-content(35%) 1fr;
-  grid-template-rows: auto 1fr;
-  justify-items: center;
-  justify-content: center;
-  grid-gap: 10px;
+.about-flexbox {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); */
+  gap: 2em;
+  
   max-width: 1200px;
 }
 
@@ -32,54 +30,64 @@
   justify-content: center;
 }
 
-.about-btn {
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
-
-.about-btn a {
+.about-btn-email {
+  font-family: "Abel", sans-serif;
   text-transform: uppercase;
+  font-size: 20px;
   background: var(--pink);
-  color: black;
+  padding: 20px;
+  width: 200px;
   text-align: center;
-  padding: 25px 50px;
-  transition: all 0.3s ease 0s;
+  color: black;
+  margin-top: 1em;
+  
 }
 
-.about-btn a:hover {
-  background: black;
-  color: var(--pink);
+.about-btn-email:hover {
+  background: rgba(0, 0, 0, .5);
   outline: 1px solid var(--pink);
   outline-offset: -1px;
+  color: var(--pink);
+  cursor: pointer;
+  
 }
+
 
 .about-photo {
-  display: flex;
-  justify-content: center;
-  align-items: start;
+  
+  background-image: url("./../../../public/images/agphoto.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+  height: 100%;
+  width: 200%;
+ 
+  
+  
 }
 
-.about-photo img {
-  padding: 10px;
 
-  width: 100%;
-  border: 1px solid var(--pink);
-}
 
 .about-text {
-  grid-column: 2;
-  grid-row: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   color: var(--pink);
-  padding: 0 0 0 30px;
+ /* max-width: 80%; */
+  margin: 0 20px;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  text-indent: 25px;
+  
+  
+  font-size: 1em;
+  line-height: 1.6;
+  
 }
 .about-text p {
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 .socials-about {
+  margin: 2em 0;
   transition: all 0.3s ease 0s;
 }
 
@@ -89,14 +97,12 @@
   vertical-align: middle;
 }
 
-@media (max-width: 820px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+@media ( max-width: 1024px) {
+  .about-flexbox {
+    flex-direction: column;
   }
-  .about-text {
-    grid-column: 1;
-    grid-row: 2;
-    padding: 0;
+  .about-photo {
+    height: 50vh;
+    width: auto;
   }
 }

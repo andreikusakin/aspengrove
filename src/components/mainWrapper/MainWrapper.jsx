@@ -16,7 +16,9 @@ const MainWrapper = () => {
         <div id="home" ref={ref} className='main-wrapper'>
             { (!inView || onlyWidth < 600) && <NavbarFullScreen inView={inView} />}
             <div className='background-mw'></div>
-            <span className='title-wrapper fade-in'><p>Aspen Grove</p></span>
+            <span className={`title-wrapper fade-in ${
+            inView ? "" : "title-blend"
+          }`} ><p>Aspen Grove</p></span>
             <Navbar />
         </div>
     )

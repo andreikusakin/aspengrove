@@ -14,18 +14,21 @@
     display: flex;    
     padding-top: 50vh;
     padding-left: 25vw;
-    font-size: 20px;
+    font-size: calc(1em + 0.5vw);
     text-transform: uppercase;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 200;
     letter-spacing: 2vw;
     z-index: 50;  
 }
+.title-blend {
+    mix-blend-mode: difference;
+}
 
 @media (max-width: 600px) { 
     .title-wrapper {
         position: fixed;
-        width: 80%;
+        
         padding: 17px 20px;
         letter-spacing: 9px;
         font-size: 15px;

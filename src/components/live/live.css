@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 50vh;
     font-size: 30px;
     letter-spacing: 1.5vw;

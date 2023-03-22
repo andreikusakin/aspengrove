@@ -34,11 +34,13 @@
   text-align: center;
   color: black;
   margin-top: 30px;
+  
 }
 
 .btn-show:hover {
-  background-color: black;
+  background: rgba(0, 0, 0, .5);
   outline: 1px solid var(--pink);
   outline-offset: -1px;
   color: var(--pink);
+  cursor: pointer;
 }
