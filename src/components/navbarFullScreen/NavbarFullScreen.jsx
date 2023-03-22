@@ -4,6 +4,7 @@ import './navbarFullScreen.css'
 import { BsInstagram, BsYoutube, BsSpotify } from "react-icons/bs"
 import { SiApplemusic, SiAmazon } from "react-icons/si"
 
+
 const NavbarFullScreen = ({inView}) => {
 
     const links = [

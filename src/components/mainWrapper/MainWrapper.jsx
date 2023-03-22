@@ -4,6 +4,7 @@ import NavbarFullScreen from '../navbarFullScreen/NavbarFullScreen'
 import { useInView } from "react-intersection-observer"
 import { useWindowWidth } from '@react-hook/window-size'
 
+
 const MainWrapper = () => {
     const onlyWidth = useWindowWidth()
     const [ref, inView] = useInView({
