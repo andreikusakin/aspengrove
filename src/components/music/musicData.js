@@ -64,14 +64,6 @@ export const musicData = [
     img: "/images/musclememories.jpg"
   },
   {
-    title: "SONGS FOR YOUR PSYCHOTHERAPIST",
-    type: "Album",
-    year: 2022,
-    link: "https://fanlink.to/songsforyourpsychotherapist",
-
-    img: "/images/sfyp.jpg"
-  },
-  {
     title: "Ne zabuvai mene 🇺🇦",
     type: "Single",
     year: 2023,
