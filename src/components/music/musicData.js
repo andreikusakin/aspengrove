@@ -16,7 +16,7 @@ export const musicData = [
     img: "/images/ithinkimyours.jpg"
   },
   {
-    title: "Mucle Memories",
+    title: "Muscle Memories",
     type: "Album",
     year: 2022,
     link: "https://fanlink.to/musclememories",
